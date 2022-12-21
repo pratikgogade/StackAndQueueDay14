@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +14,15 @@ namespace StackAndQueue
             st.Push(70);
             st.Push(30);
             st.Push(56);
+            st.display();
+            st.Peek();
+            st.Pop();
+            st.display();
+            st.Peek();
+            st.Pop();
+            st.display();
+            st.Peek();
+            st.Pop();
             st.display();
         }
     }
